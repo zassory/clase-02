@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondos */
+.fondo-azul{
+    background-color: blue;
+}
+
+/* Color Fuentes */
+.texto-blanco{
+    color: white;
+}
+
+/* Centrar */
+.centrar-texto{
+    text-align: center;
+}
+
+/* Redondear */
+.redondear-03rem{
+    border-radius: .3rem;
+}
+
+/* Paddings */
+.espacio-arriba-1{
+    padding-top: 20px;
+}
+.espacio-arriba-2{
+    padding-top: 40px;
+}
+.espacio-abajo-1{
+    padding-bottom: 20px;
+}
+.espacio-abajo-2{
+    padding-bottom: 40px;
+}
+/*  Margins */
+.distancia-arriba-1{
+    margin-top: 20px;
+}
+.distancia-arriba-2{
+    margin-top: 40px;
+}
+
+
+/* Boton */
+.btnComprar{
+    background-color: rgb(225, 225, 52);
+    padding: 15px 20px;
+    margin-top: 20px;
+    border-radius: .3rem;
+    color: rgb(201, 154, 154);
+    font-weight: 600;
+}
+.btnComprar:hover{
+    cursor: pointer;
+    background-color: rgb(139, 139, 18);
+    color: white;
+    transition: .3s ease-out;
+}
