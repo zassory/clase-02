@@ -63,3 +63,16 @@ body{
     color: white;
     transition: .3s ease-out;
 }
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;    
+    background-color: brown;
+    padding: 30px;
+    text-transform: uppercase;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: .3rem;
+}
